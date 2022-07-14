@@ -1,0 +1,55 @@
+DAY 3 TASK
+
+1.for the given JSON iterate over all for loops(for,for in)
+
+var json = {
+	   jsonData:  [
+	       {one: [1, 2, 3, 4, 5]},
+	       {two: [6, 7, 8]},
+	       {three: [9, 10]}
+	   ]
+	}; 
+	for (var i=0; i<json.jsonData.length; i++) {
+	   for (var key in json.jsonData[i]) {
+	       for (var j= 0; j<json.jsonData[i][key].length; j++) {
+	           console.log(json.jsonData[i][key][j])
+	       }
+	   }
+	}or the given json iterate over all for loops(for,for in)
+
+2.Create your own resume data in json format
+
+
+let myResume={
+    "basics": {
+      "name": "ABISHEK.H",
+      "email": "abishekspike007@gamil.com",
+      "phone": 9578741769,
+      "degree": "b.com",
+      "address": "13,boopathynagar,keelkattalai",
+        "postalCode": 600117,
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "India"
+      ,
+      
+    }
+}
+console.log(myResume);
+
+3.difference between window screen and document in javascript
+
+Window screen
+
+Window is the main JavaScript object root, aka the global object in a browser, and it can also be treated as the root of the document object model. You can access it as window.
+
+window.screen or just screen is a small information object about physical screen dimensions.
+
+window.document or just document is the main object of the potentially visible (or better yet: rendered) document object model/DOM.
+
+Document in javascript
+
+ Document object represents the HTML document that is displayed in that window. The Document object has various properties that refer to other objects which allow access to and 
+
+modification of document content. The way a document content is accessed and modified is called the Document Object Model, or DOM.
+
